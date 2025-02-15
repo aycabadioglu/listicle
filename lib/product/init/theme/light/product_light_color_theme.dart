@@ -1,63 +1,63 @@
 import 'package:flutter/material.dart';
-import 'package:gen/gen.dart';
+import 'package:listicle/product/constants/colors/light_colors.dart';
 import 'package:listicle/product/init/theme/base/base_color_theme.dart';
 
 class LightColorTheme extends IColorTheme {
   //---------------------------------------------------------------------------
   @override
-  Color get primary => ColorName.primaryLight;
+  Color get primary => LightColors.primaryLight;
   @override
-  Color get onPrimary => ColorName.onPrimaryLight;
+  Color get onPrimary => LightColors.onPrimaryLight;
   @override
-  Color get primaryContainer => ColorName.primaryContainerLight;
+  Color get primaryContainer => LightColors.primaryContainerLight;
   @override
-  Color get onPrimaryContainer => ColorName.onPrimaryContainerLight;
+  Color get onPrimaryContainer => LightColors.onPrimaryContainerLight;
   //---------------------------------------------------------------------------
   @override
-  Color get secondary => ColorName.secondaryLight;
+  Color get secondary => LightColors.secondaryLight;
   @override
-  Color get onSecondary => ColorName.onSecondaryLight;
+  Color get onSecondary => LightColors.onSecondaryLight;
   @override
-  Color get secondaryContainer => ColorName.secondaryContainerLight;
+  Color get secondaryContainer => LightColors.secondaryContainerLight;
   @override
-  Color get onSecondaryContainer => ColorName.onSecondaryContainerLight;
+  Color get onSecondaryContainer => LightColors.onSecondaryContainerLight;
   //---------------------------------------------------------------------------
   @override
-  Color get surfaceDim => ColorName.surfaceDimLight;
+  Color get surfaceDim => LightColors.surfaceDimLight;
   @override
-  Color get scrim => ColorName.scrimLight;
+  Color get scrim => LightColors.scrimLight;
   //---------------------------------------------------------------------------
   @override
-  Color get surface => ColorName.surfaceLight;
+  Color get surface => LightColors.surfaceLight;
   @override
-  Color get onSurface => ColorName.onSurfaceLight;
+  Color get onSurface => LightColors.onSurfaceLight;
   @override
-  Color get surfaceContainerHighest => ColorName.surfaceContainerHighestLight;
+  Color get surfaceContainerHighest => LightColors.surfaceContainerHighestLight;
   @override
-  Color get onSurfaceVariant => ColorName.onSurfaceVariantLight;
+  Color get onSurfaceVariant => LightColors.onSurfaceVariantLight;
   //---------------------------------------------------------------------------
   @override
-  Color get error => ColorName.errorLight;
+  Color get error => LightColors.errorLight;
   @override
-  Color get onError => ColorName.onErrorLight;
+  Color get onError => LightColors.onErrorLight;
   @override
-  Color get errorContainer => ColorName.errorContainerLight;
+  Color get errorContainer => LightColors.errorContainerLight;
   @override
-  Color get onErrorContainer => ColorName.onErrorContainerLight;
+  Color get onErrorContainer => LightColors.onErrorContainerLight;
   //---------------------------------------------------------------------------
   @override
-  Color get outline => ColorName.outlineLight;
+  Color get outline => LightColors.outlineLight;
   @override
-  Color get outlineVariant => ColorName.outlineVariantLight;
+  Color get outlineVariant => LightColors.outlineVariantLight;
   //---------------------------------------------------------------------------
   @override
-  Color get tertiary => ColorName.tertiaryLight;
+  Color get tertiary => LightColors.tertiaryLight;
   @override
-  Color get onTertiary => ColorName.onTertiaryLight;
+  Color get onTertiary => LightColors.onTertiaryLight;
   @override
-  Color get tertiaryContainer => ColorName.tertiaryContainerLight;
+  Color get tertiaryContainer => LightColors.tertiaryContainerLight;
   @override
-  Color get onTertiaryContainer => ColorName.onTertiaryContainerLight;
+  Color get onTertiaryContainer => LightColors.onTertiaryContainerLight;
   //---------------------------------------------------------------------------
 
   @override

@@ -1,0 +1,3 @@
+enum CacheConstants {
+  appSettings;
+}

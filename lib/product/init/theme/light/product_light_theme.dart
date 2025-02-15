@@ -4,6 +4,11 @@ import 'package:listicle/product/init/theme/base/product_theme.dart';
 import 'package:listicle/product/init/theme/light/product_light_color_theme.dart';
 
 final class ProductLightTheme extends ProductTheme {
+  ProductLightTheme._init();
+  static final ProductLightTheme _instance = ProductLightTheme._init();
+
+  static ProductLightTheme get instance => _instance;
+
   @override
   final colorScheme = LightColorTheme().colorScheme;
   @override

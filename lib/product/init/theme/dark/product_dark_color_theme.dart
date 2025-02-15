@@ -1,63 +1,63 @@
 import 'package:flutter/material.dart';
-import 'package:gen/gen.dart';
+import 'package:listicle/product/constants/colors/dark_colors.dart';
 import 'package:listicle/product/init/theme/base/base_color_theme.dart';
 
 class DarkColorTheme extends IColorTheme {
   //---------------------------------------------------------------------------
   @override
-  Color get primary => ColorName.primaryDark;
+  Color get primary => DarkColors.primaryDark;
   @override
-  Color get onPrimary => ColorName.onPrimaryDark;
+  Color get onPrimary => DarkColors.onPrimaryDark;
   @override
-  Color get primaryContainer => ColorName.primaryContainerDark;
+  Color get primaryContainer => DarkColors.primaryContainerDark;
   @override
-  Color get onPrimaryContainer => ColorName.onPrimaryContainerDark;
+  Color get onPrimaryContainer => DarkColors.onPrimaryContainerDark;
   //---------------------------------------------------------------------------
   @override
-  Color get secondary => ColorName.secondaryDark;
+  Color get secondary => DarkColors.secondaryDark;
   @override
-  Color get onSecondary => ColorName.onSecondaryDark;
+  Color get onSecondary => DarkColors.onSecondaryDark;
   @override
-  Color get secondaryContainer => ColorName.secondaryContainerDark;
+  Color get secondaryContainer => DarkColors.secondaryContainerDark;
   @override
-  Color get onSecondaryContainer => ColorName.onSecondaryContainerDark;
+  Color get onSecondaryContainer => DarkColors.onSecondaryContainerDark;
   //---------------------------------------------------------------------------
   @override
-  Color get surfaceDim => ColorName.surfaceDimDark;
+  Color get surfaceDim => DarkColors.surfaceDimDark;
   @override
-  Color get scrim => ColorName.scrimDark;
+  Color get scrim => DarkColors.scrimDark;
   //---------------------------------------------------------------------------
   @override
-  Color get surface => ColorName.surfaceDark;
+  Color get surface => DarkColors.surfaceDark;
   @override
-  Color get onSurface => ColorName.onSurfaceDark;
+  Color get onSurface => DarkColors.onSurfaceDark;
   @override
-  Color get surfaceContainerHighest => ColorName.surfaceContainerHighestDark;
+  Color get surfaceContainerHighest => DarkColors.surfaceContainerHighestDark;
   @override
-  Color get onSurfaceVariant => ColorName.onSurfaceVariantDark;
+  Color get onSurfaceVariant => DarkColors.onSurfaceVariantDark;
   //---------------------------------------------------------------------------
   @override
-  Color get error => ColorName.errorDark;
+  Color get error => DarkColors.errorDark;
   @override
-  Color get onError => ColorName.onErrorDark;
+  Color get onError => DarkColors.onErrorDark;
   @override
-  Color get errorContainer => ColorName.errorContainerDark;
+  Color get errorContainer => DarkColors.errorContainerDark;
   @override
-  Color get onErrorContainer => ColorName.onErrorContainerDark;
+  Color get onErrorContainer => DarkColors.onErrorContainerDark;
   //---------------------------------------------------------------------------
   @override
-  Color get outline => ColorName.outlineDark;
+  Color get outline => DarkColors.outlineDark;
   @override
-  Color get outlineVariant => ColorName.outlineVariantDark;
+  Color get outlineVariant => DarkColors.outlineVariantDark;
   //---------------------------------------------------------------------------
   @override
-  Color get tertiary => ColorName.tertiaryDark;
+  Color get tertiary => DarkColors.tertiaryDark;
   @override
-  Color get onTertiary => ColorName.onTertiaryDark;
+  Color get onTertiary => DarkColors.onTertiaryDark;
   @override
-  Color get tertiaryContainer => ColorName.tertiaryContainerDark;
+  Color get tertiaryContainer => DarkColors.tertiaryContainerDark;
   @override
-  Color get onTertiaryContainer => ColorName.onTertiaryContainerDark;
+  Color get onTertiaryContainer => DarkColors.onTertiaryContainerDark;
   //---------------------------------------------------------------------------
 
   @override
