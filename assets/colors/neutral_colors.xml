@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="facebookBlue">#316FF6</color>
+    <color name="proGreenLight">#2CD4AC</color>
+    <color name="proGreenDark">#008364</color>
+    <color name="humidity">#5CDDD5</color>
+    <!-- - - - - - TOAST - - - - - - - -  - -->
+    <color name="toastError">#B41212</color>
+    <color name="toastSuccess">#0E9E2D</color>
+    <color name="toastWarning">#DFA101</color>
+    <color name="toastInfo">#137FCC</color>
+    <!-- -  PRO BANNER CONTAINER - - - -  - -->
+    <color name="proContainerFuchsia">#FF00F5</color>
+    <color name="proContainerElectricPurple">#BB00FF</color>
+    <color name="proContainerViolet">#8F00FF</color>
+     <!-- -  PRO BANNER CONTAINER - - - -  - -->
+     <color name="proCardGradientStart">#2F9CED</color>
+     <color name="proCardGradientEnd">#77CCF6</color>
+     <!-- - CUSTOM COLORS-->
+     <color name="goPro">#2400FF</color>
+     <color name="halloweenOrange">#F36F00</color>
+</resources>
